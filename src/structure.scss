@@ -1,0 +1,24 @@
+@import 'variables';
+
+body {
+	color: $body-font-color;
+	display: flex;
+	font-family: $body-font-family;
+	flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $heading-font-color;
+}
+
+header, main, footer {
+	width: 100vw;
+}
+
+header {
+	/* TODO */
+}
+
+footer {
+	display: flex;
+}
